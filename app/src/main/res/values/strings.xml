@@ -1,0 +1,1408 @@
+<resources>
+    <string name="app_name">Japanese Names</string>
+    <string name="app_title">Japanese names and surnames generator</string>
+    <string name="text2">Name</string>
+    <string name="text3">Surname</string>
+    <string name="text4">Gender:</string>
+    <string name="text5">Create</string>
+    <string name="text7">Copy result</string>
+
+    <string name="text6">Result:</string>
+    <string name="text8">Original:</string>
+    <string name="text9">Meaning:</string>
+
+    <string-array name="genders">
+        <item>Any</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="female_names">
+        <item>Ai</item>
+        <item>Aika</item>
+        <item>Aiko</item>
+        <item>Aimi</item>
+        <item>Akane</item>
+        <item>Akemi</item>
+        <item>Aki</item>
+        <item>Akiko</item>
+        <item>Akira</item>
+        <item>Amaterasu</item>
+        <item>Amaya</item>
+        <item>Aoi</item>
+        <item>Arisu</item>
+        <item>Asami</item>
+        <item>Asuka</item>
+        <item>Atsuko</item>
+        <item>Avaron</item>
+        <item>Aya</item>
+        <item>Ayaka</item>
+        <item>Ayako</item>
+        <item>Ayame</item>
+        <item>Ayano</item>
+        <item>Ayumi</item>
+        <item>Azumi</item>
+        <item>Bunko</item>
+        <item>Chiasa</item>
+        <item>Chie</item>
+        <item>Chieko</item>
+        <item>Chiharu</item>
+        <item>Chika</item>
+        <item>Chikako</item>
+        <item>Chinatsu</item>
+        <item>Chiyo</item>
+        <item>Chiyoko</item>
+        <item>Cho</item>
+        <item>Chou</item>
+        <item>Eiko</item>
+        <item>Emi</item>
+        <item>Emiko</item>
+        <item>Eri</item>
+        <item>Etsuko</item>
+        <item>Fuji</item>
+        <item>Fumiko</item>
+        <item>Gina</item>
+        <item>Hana</item>
+        <item>Hanako</item>
+        <item>Haru</item>
+        <item>Haruka</item>
+        <item>Haruki</item>
+        <item>Haruko</item>
+        <item>Harumi</item>
+        <item>Hideko</item>
+        <item>Hikari</item>
+        <item>Hikaru</item>
+        <item>Hiro</item>
+        <item>Hiroko</item>
+        <item>Hiromi</item>
+        <item>Hisako</item>
+        <item>Hisoka</item>
+        <item>Hitomi</item>
+        <item>Hoshi</item>
+        <item>Hotaru</item>
+        <item>Izanami</item>
+        <item>Izumi</item>
+        <item>Jun</item>
+        <item>Junko</item>
+        <item>Kaede</item>
+        <item>Kame</item>
+        <item>Kameko</item>
+        <item>Kameyo</item>
+        <item>Kamiko</item>
+        <item>Kaori</item>
+        <item>Kaoru</item>
+        <item>Kasumi</item>
+        <item>Katsumi</item>
+        <item>Kayo</item>
+        <item>Kazue</item>
+        <item>Kazuko</item>
+        <item>Kazumi</item>
+        <item>Kei</item>
+        <item>Keiko</item>
+        <item>Kiku</item>
+        <item>Kimi</item>
+        <item>Kimiko</item>
+        <item>Kin</item>
+        <item>Kiyoko</item>
+        <item>Kiyomi</item>
+        <item>Ko</item>
+        <item>Kohaku</item>
+        <item>Kotone</item>
+        <item>Kou</item>
+        <item>Kumiko</item>
+        <item>Kyo</item>
+        <item>Kyoko</item>
+        <item>Kyou</item>
+        <item>Madoka</item>
+        <item>Mai</item>
+        <item>Maiko</item>
+        <item>Maki</item>
+        <item>Makoto</item>
+        <item>Mana</item>
+        <item>Manami</item>
+        <item>Mari</item>
+        <item>Mariko</item>
+        <item>Masa</item>
+        <item>Masako</item>
+        <item>Masami</item>
+        <item>Masumi</item>
+        <item>Masuyo</item>
+        <item>Mayumi</item>
+        <item>Megumi</item>
+        <item>Mi</item>
+        <item>Michi</item>
+        <item>Michiko</item>
+        <item>Midori</item>
+        <item>Mieko</item>
+        <item>Miho</item>
+        <item>Mika</item>
+        <item>Miki</item>
+        <item>Minako</item>
+        <item>Minori</item>
+        <item>Misaki</item>
+        <item>Mitsuko</item>
+        <item>Mitsuru</item>
+        <item>Miwa</item>
+        <item>Miyako</item>
+        <item>Miyoko</item>
+        <item>Miyuki</item>
+        <item>Mizuki</item>
+        <item>Moe</item>
+        <item>Momo</item>
+        <item>Momoe</item>
+        <item>Momoko</item>
+        <item>Moriko</item>
+        <item>Nana</item>
+        <item>Nao</item>
+        <item>Naoki</item>
+        <item>Naoko</item>
+        <item>Naomi</item>
+        <item>Natsuko</item>
+        <item>Natsumi</item>
+        <item>Nobuko</item>
+        <item>Nori</item>
+        <item>Noriko</item>
+        <item>Ran</item>
+        <item>Rei</item>
+        <item>Reiko</item>
+        <item>Ren</item>
+        <item>Rie</item>
+        <item>Rika</item>
+        <item>Riko</item>
+        <item>Rin</item>
+        <item>Ryo</item>
+        <item>Ryoko</item>
+        <item>Sachiko</item>
+        <item>Saki</item>
+        <item>Sakiko</item>
+        <item>Sakura</item>
+        <item>Sango</item>
+        <item>Sayuri</item>
+        <item>Setsuko</item>
+        <item>Shig</item>
+        <item>Shigeko</item>
+        <item>Shika</item>
+        <item>Shinju</item>
+        <item>Shiori</item>
+        <item>Shizuka</item>
+        <item>Shizuko</item>
+        <item>Sora</item>
+        <item>Sumiko</item>
+        <item>Susumu</item>
+        <item>Suzu</item>
+        <item>Suzume</item>
+        <item>Takako</item>
+        <item>Takara</item>
+        <item>Tamiko</item>
+        <item>Teruko</item>
+        <item>Tomiko</item>
+        <item>Tomoko</item>
+        <item>Toshiko</item>
+        <item>Tsukiko</item>
+        <item>Ume</item>
+        <item>Umeko</item>
+        <item>Usagi</item>
+        <item>Yasu</item>
+        <item>Yasuko</item>
+        <item>Yoko</item>
+        <item>Yori</item>
+        <item>Yoshi</item>
+        <item>Yoshie</item>
+        <item>Yoshiko</item>
+        <item>Yuka</item>
+        <item>Yuki</item>
+        <item>Yukiko</item>
+        <item>Yuko</item>
+        <item>Yumi</item>
+        <item>Yumiko</item>
+        <item>Yuriko</item>
+    </string-array>
+
+    <string-array name="female_original_name">
+        <item>Chinese: 1: 蔼, 2: 爱, Japanese: 1: 藍, 2: 愛</item>
+        <item>愛佳</item>
+        <item>愛子</item>
+        <item>愛美</item>
+        <item>茜</item>
+        <item>明美</item>
+        <item>1-秋, 2-明, 3-晶</item>
+        <item>1-秋子, 2-明子, 3-晶子</item>
+        <item>1-明, 2-亮</item>
+        <item>天照</item>
+        <item></item>
+        <item>1-碧, 2-葵</item>
+        <item>アリス</item>
+        <item>麻美</item>
+        <item>明日香</item>
+        <item>1-篤子, 2-温子</item>
+        <item>アヴァロン</item>
+        <item>1-彩, 2-綾</item>
+        <item>1-彩花, 2-彩華</item>
+        <item>1-彩子, 2-綾子</item>
+        <item>菖蒲</item>
+        <item>1-彩乃, 2-綾乃</item>
+        <item>あゆみ</item>
+        <item>あずみ</item>
+        <item></item>
+        <item></item>
+        <item>恵</item>
+        <item>恵子</item>
+        <item>千春</item>
+        <item>散花</item>
+        <item>千香子</item>
+        <item>千夏</item>
+        <item>千代</item>
+        <item>千代子</item>
+        <item></item>
+        <item>蝶</item>
+        <item>栄子</item>
+        <item>1-恵美, 2-絵美</item>
+        <item>1-恵美子, 2-笑子</item>
+        <item>絵理</item>
+        <item>悦子</item>
+        <item>富</item>
+        <item>文子</item>
+        <item></item>
+        <item>花</item>
+        <item>花子</item>
+        <item>1-晴, 2-春, 3-陽</item>
+        <item>遙, 遥, 悠, 遼</item>
+        <item>春樹</item>
+        <item>はるこ</item>
+        <item>春美</item>
+        <item>秀子</item>
+        <item>光</item>
+        <item>輝</item>
+        <item>1-裕, 2-寛, 3-浩</item>
+        <item>1-裕子, 2-浩子, 3-寛子</item>
+        <item>1-裕美, 2-浩美, 3-寛美</item>
+        <item>久子</item>
+        <item>密</item>
+        <item>瞳</item>
+        <item>星</item>
+        <item>蛍</item>
+        <item>イザナミ</item>
+        <item>泉</item>
+        <item>順</item>
+        <item>1-順子, 2-純子</item>
+        <item>楓</item>
+        <item></item>
+        <item>上子</item>
+        <item></item>
+        <item>上子</item>
+        <item>香織</item>
+        <item>薫</item>
+        <item>霞</item>
+        <item>勝美</item>
+        <item></item>
+        <item>一恵</item>
+        <item>1-和子, 2-一子</item>
+        <item>和美</item>
+        <item>1-恵, 2-慶, 3-桂, 4-敬, 5-啓, 6-圭, 7-景</item>
+        <item>1-恵子, 2-慶子, 3-桂子, 4-敬子, 5-啓子, 6-圭子, 7-景子</item>
+        <item>菊</item>
+        <item>君</item>
+        <item>1-后子, 2-君子</item>
+        <item>欽</item>
+        <item>清子</item>
+        <item>清見</item>
+        <item>1-幸, 2-光, 3-康</item>
+        <item>琥珀</item>
+        <item>琴音</item>
+        <item>1-幸, 2-光, 3-康</item>
+        <item>久美子</item>
+        <item>1-杏, 2- 京, 3- 協, 4- 郷</item>
+        <item>恭子</item>
+        <item>1-杏, 2- 京, 3- 協, 4- 郷</item>
+        <item>1-円, 2-円花</item>
+        <item>舞</item>
+        <item>舞子</item>
+        <item>1-真紀, 2-真希, 3-真貴, 4-真樹</item>
+        <item>誠</item>
+        <item>愛</item>
+        <item>1-愛美, 2-愛海</item>
+        <item></item>
+        <item>真里子</item>
+        <item>1-正, 2-雅, 3-昌, 4-真, 5-政, 6-将</item>
+        <item>1-雅子, 2-昌子</item>
+        <item>雅美</item>
+        <item>真澄</item>
+        <item>益世</item>
+        <item>麻弓</item>
+        <item>恵</item>
+        <item>美</item>
+        <item>道</item>
+        <item>美智子</item>
+        <item>緑</item>
+        <item>美枝子</item>
+        <item>1-美保, 2-美帆</item>
+        <item>美香</item>
+        <item>1-美紀, 2-美姫, 3-美樹, 4-美貴</item>
+        <item>美奈子</item>
+        <item>里</item>
+        <item>美咲</item>
+        <item>光子</item>
+        <item>満</item>
+        <item>1-美和, 2-美輪, 3-三和, 4-三輪</item>
+        <item>美夜子</item>
+        <item>美代子</item>
+        <item>1-美幸, 2-美雪, 3-深雪</item>
+        <item>美月</item>
+        <item>萌</item>
+        <item>モモ</item>
+        <item>百恵</item>
+        <item>桃子</item>
+        <item>森子</item>
+        <item>ナナ</item>
+        <item>1-直, 2-尚</item>
+        <item>直樹</item>
+        <item>1-直子, 2-尚子</item>
+        <item>直美</item>
+        <item>夏子</item>
+        <item>夏美</item>
+        <item>信子</item>
+        <item>1-儀, 2-典, 3-則, 4-法</item>
+        <item>法子 or 典子</item>
+        <item>蘭</item>
+        <item>1-鈴, 2-零, 3-麗, 4-霊</item>
+        <item>麗子</item>
+        <item>蓮</item>
+        <item>理恵</item>
+        <item>泉</item>
+        <item>理子</item>
+        <item>凛</item>
+        <item>1-亮, 2-遼, 3-諒, 4-涼</item>
+        <item>1-亮子, 2-涼子</item>
+        <item>幸子</item>
+        <item>咲</item>
+        <item>咲子</item>
+        <item>桜</item>
+        <item>さんご</item>
+        <item>小百合</item>
+        <item>節子</item>
+        <item></item>
+        <item>成子</item>
+        <item>鹿</item>
+        <item>真珠</item>
+        <item>詩織</item>
+        <item>静香</item>
+        <item>静子</item>
+        <item>空</item>
+        <item>澄子</item>
+        <item>進</item>
+        <item>鈴</item>
+        <item>雀</item>
+        <item>1-隆子, 2-孝子, 3-貴子, 4-敬子</item>
+        <item>宝</item>
+        <item>民子</item>
+        <item>照子</item>
+        <item>美子</item>
+        <item>1-友子, 2-知子, 3-智子</item>
+        <item>敏子</item>
+        <item>月子</item>
+        <item>梅</item>
+        <item>梅子</item>
+        <item>兎</item>
+        <item>ヤス</item>
+        <item>康子</item>
+        <item>1-洋子, 2-陽子</item>
+        <item>より</item>
+        <item>1-義, 2-吉, 3-良</item>
+        <item>1-佳江, 2-由栄, 3-淑恵, 4-好恵</item>
+        <item>1-好子, 2-芳子, 3-良子</item>
+        <item>1-由佳, 2-佑香</item>
+        <item>1-幸, 2-雪</item>
+        <item>由希子</item>
+        <item>1-優子, 2-裕子, 3-祐子</item>
+        <item>由美</item>
+        <item>由美子</item>
+        <item>百合子</item>
+    </string-array>
+
+    <string-array name="female_names_meaning">
+        <item>indig, love</item>
+        <item>love song</item>
+        <item>love child</item>
+        <item>love beauty</item>
+        <item>brilliant red</item>
+        <item>bright beauty</item>
+        <item>autum, brigh, sparkle</item>
+        <item>autumn chil, bright chil, sparkling child</item>
+        <item>brigh, clear</item>
+        <item>heaven, sk, to shine, shining over heaven</item>
+        <item>night rain</item>
+        <item>blu, hollyhock</item>
+        <item>noble sort</item>
+        <item>morning beauty</item>
+        <item>tomorrow fragrance</item>
+        <item>kind chil, warm child</item>
+        <item>island of apples</item>
+        <item>colorfu, design</item>
+        <item>color-flowe, color-petal</item>
+        <item>color-chil, design-child</item>
+        <item>iris flower</item>
+        <item>my colo, my design</item>
+        <item>pace, stroll, walk</item>
+        <item>safe residence</item>
+        <item>literary child</item>
+        <item>one thousand mornings</item>
+        <item>wisdom</item>
+        <item>wise child</item>
+        <item>one thousand springs</item>
+        <item>scattered flowers</item>
+        <item>very fragrant child</item>
+        <item>a thousand summers</item>
+        <item>a thousand generations</item>
+        <item>child of a thousand generations</item>
+        <item>butterfly</item>
+        <item>butterfly</item>
+        <item>long-lived chil, splendid child</item>
+        <item>beautiful blessin, beautiful picture</item>
+        <item>beautiful chil, smiling child</item>
+        <item>blessed prize</item>
+        <item>joyful child</item>
+        <item>wisteria</item>
+        <item>child of treasured beauty</item>
+        <item>silvery</item>
+        <item>favorit orflower</item>
+        <item>flower child</item>
+        <item>clear up, spring, sun, sunlight</item>
+        <item>distance</item>
+        <item>springtime tree</item>
+        <item>spring child</item>
+        <item>spring beauty</item>
+        <item>splendid child</item>
+        <item>radiance</item>
+        <item>radiance</item>
+        <item>abundant, generous, tolerant, prosperous</item>
+        <item>abundant child, prosperous child, generous child</item>
+        <item>abundant beauty, prosperous beauty, generous beauty</item>
+        <item>long-lived child</item>
+        <item>reserved</item>
+        <item>pupil (of the eye)</item>
+        <item>star</item>
+        <item>firefly; lightning bug</item>
+        <item>female who invites</item>
+        <item>fountain</item>
+        <item>obedient</item>
+        <item>obedient chil, pure child</item>
+        <item>maple</item>
+        <item>tortoise (symbol of long life)</item>
+        <item>superior child</item>
+        <item>tortoise (symbol of long life)</item>
+        <item>superior child</item>
+        <item>fragrance weaving</item>
+        <item>fragrance</item>
+        <item>mist</item>
+        <item>victorious beauty</item>
+        <item>beautiful/increasing generation</item>
+        <item>branch; first blessing; harmonious</item>
+        <item>harmonious/peaceful chil, only child</item>
+        <item>harmonious beauty</item>
+        <item>blessed, lucky, happy, katsura tree, respectful, spring, square jewel, sunny</item>
+        <item>blessed, lucky child, happy child, katsura tree child, respectful child, spring child, square jewel child, sunny child</item>
+        <item>chrysanthemum</item>
+        <item>honorable, noble</item>
+        <item>empress child, noble child</item>
+        <item>gold</item>
+        <item>pure child</item>
+        <item>pure beauty</item>
+        <item>happiness, light, peace</item>
+        <item>amber</item>
+        <item>harp sound</item>
+        <item>happiness, light, peace</item>
+        <item>long-time beautiful child</item>
+        <item>apricot, capital, cooperation, village</item>
+        <item>child of the city</item>
+        <item>apricot, capital, cooperation, village</item>
+        <item>circl, circle, flower</item>
+        <item>dance</item>
+        <item>dancing child</item>
+        <item>true chronicle/record, true hope, true precious, true timber trees</item>
+        <item>sincere, true</item>
+        <item>affection, love</item>
+        <item>affectionate beaut, love sea</item>
+        <item>obstinacy, rebelliousnes, their rebellion</item>
+        <item>true village child</item>
+        <item>correct, just, elegant, flourishing, prosperou, genuine, true, governing, political, military</item>
+        <item>elegant chil, flourishing child</item>
+        <item>elegant beauty</item>
+        <item>true lucidity</item>
+        <item>benefit the world</item>
+        <item>true bow (archery)</item>
+        <item>blessing</item>
+        <item>beauty</item>
+        <item>pathway</item>
+        <item>beautiful wise child</item>
+        <item>green, verdant</item>
+        <item>beautiful blessing child</item>
+        <item>beautiful guarante, beautiful sail</item>
+        <item>beautiful fragrance</item>
+        <item>beautiful chronicle, beautiful princess, beautiful tree, priceless beauty</item>
+        <item>beautiful child</item>
+        <item>truth</item>
+        <item>beauty bloom</item>
+        <item>light chil, shining child</item>
+        <item>ful, growing</item>
+        <item>beauty, harmony, beauty, ring/wheel, three, harmony, three, ring/wheel</item>
+        <item>beautiful night child</item>
+        <item>beautiful generation child</item>
+        <item>beautiful fortune/happiness, beautiful snow, deep snow</item>
+        <item>beautiful moon</item>
+        <item>budding</item>
+        <item>peach</item>
+        <item>hundred blessings</item>
+        <item>peach child</item>
+        <item>forest child</item>
+        <item>seven</item>
+        <item>docil, esteemed</item>
+        <item>docile tree</item>
+        <item>docile chil, esteemed child</item>
+        <item>above all; beauty</item>
+        <item>summer child</item>
+        <item>summer beauty</item>
+        <item>faithful child</item>
+        <item>ceremony, regalia, code, precedent, model, rule, standard, law, rule</item>
+        <item>law chil, exemplar child</item>
+        <item>lil, orchid</item>
+        <item>bell, nothing, zer, lovely, spirit</item>
+        <item>lovely child</item>
+        <item>water lily</item>
+        <item>valued blessing</item>
+        <item>valued fragrance</item>
+        <item>jasmine child</item>
+        <item>cold, dignified, severe</item>
+        <item>brightness, distant, reality, refreshing</item>
+        <item>bright chil, refreshing child</item>
+        <item>happy child</item>
+        <item>blossom</item>
+        <item>blossoming child; earlier child</item>
+        <item>cherry blossom</item>
+        <item>coral</item>
+        <item>lily</item>
+        <item>temperate child</item>
+        <item>luxuriant</item>
+        <item>luxuriant child</item>
+        <item>deer</item>
+        <item>pearl</item>
+        <item>poem; weave</item>
+        <item>quiet</item>
+        <item>quiet child</item>
+        <item>sky</item>
+        <item>clear/pure thinking child</item>
+        <item>progressing</item>
+        <item>bell</item>
+        <item>sparrow</item>
+        <item>elevated child, pious child, noble child, respectful child</item>
+        <item>treasure</item>
+        <item>child of the people</item>
+        <item>shining child</item>
+        <item>fortune/wealth-child</item>
+        <item>friendly child, knowing child, wise child</item>
+        <item>clever child</item>
+        <item>moon child</item>
+        <item>plum blossom</item>
+        <item>plum blossom child</item>
+        <item>rabbit</item>
+        <item>assertive child</item>
+        <item>peaceful child</item>
+        <item>foreign/ocean chil, sunny child</item>
+        <item>servant to the public</item>
+        <item>correct, fine, happy, good, nice</item>
+        <item>beautiful river, cause-prosper/flourish, good grace, nice favor/grace</item>
+        <item>favorite child, fragrant child, good child</item>
+        <item>cause-good, help-fragrant/incense</item>
+        <item>happiness; good fortun, snow</item>
+        <item>rare child</item>
+        <item>affectionate child, child of leisure, helpful child</item>
+        <item>cause-beauty</item>
+        <item>cause-beauty-child</item>
+        <item>hundred-perfect-child</item>
+    </string-array>
+
+    <string-array name="male_names">
+        <item>Aki</item>
+        <item>Akihiko</item>
+        <item>Akihiro</item>
+        <item>Akio</item>
+        <item>Akira</item>
+        <item>Aoi</item>
+        <item>Arata</item>
+        <item>Atsushi</item>
+        <item>Dai</item>
+        <item>Daichi</item>
+        <item>Daiki</item>
+        <item>Daisuke</item>
+        <item>Eiji</item>
+        <item>Fumio</item>
+        <item>Goro</item>
+        <item>Gorou</item>
+        <item>Hachiro</item>
+        <item>Hajime</item>
+        <item>Haru</item>
+        <item>Haruo</item>
+        <item>Hideaki</item>
+        <item>Hideki</item>
+        <item>Hideo</item>
+        <item>Hikaru</item>
+        <item>Hiro</item>
+        <item>Hiroaki</item>
+        <item>Hiroki</item>
+        <item>Hiroshi</item>
+        <item>Hiroyuki</item>
+        <item>Hisao</item>
+        <item>Hisashi</item>
+        <item>Hisoka</item>
+        <item>Hitoshi</item>
+        <item>Hotaka</item>
+        <item>Ichiro</item>
+        <item>Ichirou</item>
+        <item>Isamu</item>
+        <item>Isao</item>
+        <item>Iwao</item>
+        <item>Izanagi</item>
+        <item>Jiro</item>
+        <item>Jirou</item>
+        <item>Jun</item>
+        <item>Junichi</item>
+        <item>Juro</item>
+        <item>Jurou</item>
+        <item>Kaede</item>
+        <item>Katashi</item>
+        <item>Katsu</item>
+        <item>Katsumi</item>
+        <item>Katsuo</item>
+        <item>Katsuro</item>
+        <item>Kazuhiko</item>
+        <item>Kazuhiro</item>
+        <item>Kazuki</item>
+        <item>Kazuo</item>
+        <item>Kei</item>
+        <item>Keiichi</item>
+        <item>Keiji</item>
+        <item>Ken</item>
+        <item>Ken\'ichi</item>
+        <item>Kenji</item>
+        <item>Kenshin</item>
+        <item>Kenta</item>
+        <item>Kichiro</item>
+        <item>Kichirou</item>
+        <item>Kin</item>
+        <item>Kioshi</item>
+        <item>Kiyoshi</item>
+        <item>Ko</item>
+        <item>Kohaku</item>
+        <item>Koichi</item>
+        <item>Koji</item>
+        <item>Kou</item>
+        <item>Kunio</item>
+        <item>Kuro</item>
+        <item>Kurou</item>
+        <item>Kyo</item>
+        <item>Kyou</item>
+        <item>Madoka</item>
+        <item>Makoto</item>
+        <item>Mamoru</item>
+        <item>Manabu</item>
+        <item>Masa</item>
+        <item>Masaaki</item>
+        <item>Masahiko</item>
+        <item>Masahiro</item>
+        <item>Masaki</item>
+        <item>Masanori</item>
+        <item>Masao</item>
+        <item>Masaru</item>
+        <item>Masashi</item>
+        <item>Masato</item>
+        <item>Masayoshi</item>
+        <item>Masayuki</item>
+        <item>Masumi</item>
+        <item>Michi</item>
+        <item>Michio</item>
+        <item>Mikio</item>
+        <item>Minori</item>
+        <item>Minoru</item>
+        <item>Mitsuo</item>
+        <item>Mitsuru</item>
+        <item>Nao</item>
+        <item>Naoki</item>
+        <item>Noboru</item>
+        <item>Nobu</item>
+        <item>Nobuo</item>
+        <item>Nobuyuki</item>
+        <item>Nori</item>
+        <item>Norio</item>
+        <item>Orochi</item>
+        <item>Osamu</item>
+        <item>Raiden</item>
+        <item>Rokuro</item>
+        <item>Ryo</item>
+        <item>Ryota</item>
+        <item>Ryuu</item>
+        <item>Saburo</item>
+        <item>Sadao</item>
+        <item>Satoru</item>
+        <item>Satoshi</item>
+        <item>Seiichi</item>
+        <item>Seiji</item>
+        <item>Shichiro</item>
+        <item>Shig</item>
+        <item>Shigeo</item>
+        <item>Shigeru</item>
+        <item>Shin</item>
+        <item>Shin\'ichi</item>
+        <item>Shinji</item>
+        <item>Shiro</item>
+        <item>Sho</item>
+        <item>Shoichi</item>
+        <item>Shoji</item>
+        <item>Shou</item>
+        <item>Shuichi</item>
+        <item>Shuji</item>
+        <item>Sora</item>
+        <item>Susumu</item>
+        <item>Tadao</item>
+        <item>Tadashi</item>
+        <item>Takahiro</item>
+        <item>Takao</item>
+        <item>Takashi</item>
+        <item>Takayuki</item>
+        <item>Takehiko</item>
+        <item>Takeo</item>
+        <item>Takeshi</item>
+        <item>Takumi</item>
+        <item>Tamotsu</item>
+        <item>Taro</item>
+        <item>Tatsuo</item>
+        <item>Tatsuya</item>
+        <item>Teruo</item>
+        <item>Tetsuo</item>
+        <item>Tetsuya</item>
+        <item>Tomio</item>
+        <item>Toru</item>
+        <item>Torvald</item>
+        <item>Toshi</item>
+        <item>Toshiaki</item>
+        <item>Toshio</item>
+        <item>Toshiyuki</item>
+        <item>Tsuneo</item>
+        <item>Tsutomu</item>
+        <item>Tsuyoshi</item>
+        <item>Yasuhiro</item>
+        <item>Yasuo</item>
+        <item>Yasushi</item>
+        <item>Yoichi</item>
+        <item>Yori</item>
+        <item>Yoshi</item>
+        <item>Yoshiaki</item>
+        <item>Yoshihiro</item>
+        <item>Yoshikazu</item>
+        <item>Yoshinori</item>
+        <item>Yoshio</item>
+        <item>Yoshiro</item>
+        <item>Yoshito</item>
+        <item>Yoshiyuki</item>
+        <item>Yuichi</item>
+        <item>Yuji</item>
+        <item>Yuki</item>
+        <item>Yukio</item>
+        <item>Yutaka</item>
+        <item>Yuu</item>
+        <item>Yuudai</item>
+    </string-array>
+
+    <string-array name="male_original_name">
+        <item>1-秋, 2-明, 3-晶</item>
+        <item>明彦</item>
+        <item>大畠</item>
+        <item>1-昭雄, 2-昭夫</item>
+        <item>1-明, 2- 亮</item>
+        <item>1-碧, 2- 葵</item>
+        <item>新</item>
+        <item>敦</item>
+        <item>大</item>
+        <item>1-大地, 2-大智</item>
+        <item>1-大輝, 2-大貴, 3-大樹</item>
+        <item>大輔</item>
+        <item>1-永次, 2-英治, 3-英二, 4-栄治</item>
+        <item>文雄</item>
+        <item>五郎</item>
+        <item>五郎</item>
+        <item>八郎</item>
+        <item>肇, 元</item>
+        <item>1-晴, 2-春, 3-陽</item>
+        <item>春男</item>
+        <item>秀明</item>
+        <item>秀樹</item>
+        <item>英夫</item>
+        <item>輝</item>
+        <item>1-裕, 2-寛, 3-浩</item>
+        <item>広朗</item>
+        <item>弘樹</item>
+        <item>1-寛, 2-浩</item>
+        <item>博之</item>
+        <item>寿夫</item>
+        <item>久志</item>
+        <item>密</item>
+        <item>等</item>
+        <item>穂高</item>
+        <item></item>
+        <item>一郎</item>
+        <item>勇</item>
+        <item>功</item>
+        <item>巌</item>
+        <item>イザナギ</item>
+        <item></item>
+        <item>二郎</item>
+        <item>順</item>
+        <item>順一</item>
+        <item></item>
+        <item>十郎</item>
+        <item>楓</item>
+        <item>堅</item>
+        <item>勝</item>
+        <item>克己</item>
+        <item>勝雄</item>
+        <item>勝郎</item>
+        <item>和彦</item>
+        <item>一浩</item>
+        <item>1-和希, 2-一輝</item>
+        <item>1-和夫, 2-一男</item>
+        <item>1-恵, 2-佳, 3-敬, 4-圭, 5-慧</item>
+        <item>圭一</item>
+        <item>敬二</item>
+        <item>1-健, 2-謙, 3-研</item>
+        <item>1-健一, 2-研一</item>
+        <item>1-健二, 2-研二</item>
+        <item>謙信</item>
+        <item>健太</item>
+        <item></item>
+        <item>吉郎</item>
+        <item>欽</item>
+        <item>淳</item>
+        <item>淳</item>
+        <item>1-幸, 2-光, 3-康</item>
+        <item>琥珀</item>
+        <item>光一</item>
+        <item>光司</item>
+        <item>1-幸, 2-光, 3-康</item>
+        <item>國男</item>
+        <item></item>
+        <item>九郎</item>
+        <item>1-杏, 2- 京, 3- 協, 4- 郷</item>
+        <item>1-杏, 2- 京, 3- 協, 4- 郷</item>
+        <item>1-円, 2-円花</item>
+        <item>誠</item>
+        <item>守</item>
+        <item>学</item>
+        <item>1-正, 2-雅, 3-昌, 4-真, 5-政, 6-将</item>
+        <item>真明</item>
+        <item>正彦</item>
+        <item>正洋</item>
+        <item>昌樹</item>
+        <item>正則</item>
+        <item>正男</item>
+        <item>勝</item>
+        <item>雅</item>
+        <item>正人</item>
+        <item>昌良</item>
+        <item>正幸</item>
+        <item>真澄</item>
+        <item>道</item>
+        <item>道夫</item>
+        <item>美樹夫</item>
+        <item>里</item>
+        <item>里</item>
+        <item>光子</item>
+        <item>満</item>
+        <item>1-直, 2-尚</item>
+        <item>直樹</item>
+        <item>翔</item>
+        <item>1-信, 2-延</item>
+        <item>信夫</item>
+        <item>信行</item>
+        <item>1-儀, 2-典, 3-則, 4-法</item>
+        <item>法男</item>
+        <item>大蛇</item>
+        <item>1-紀, 2-修, 3-理, 4-収, 5-治, 6-統</item>
+        <item>雷電</item>
+        <item>六朗</item>
+        <item>1-亮, 2-遼, 3-諒, 4-涼</item>
+        <item>亮太</item>
+        <item>竜</item>
+        <item>三郎</item>
+        <item>貞雄</item>
+        <item>1-暁, 2-悟, 3-聡, 4-知, 5-覚, 6-諭, 7-了, 8-智</item>
+        <item>聡</item>
+        <item>精一</item>
+        <item>精二</item>
+        <item>七郎</item>
+        <item></item>
+        <item>重夫</item>
+        <item>茂</item>
+        <item>1-晋, 2-信, 3-紳, 4-心, 5-慎, 6-新, 7-進, 8-真</item>
+        <item>真一</item>
+        <item>真二</item>
+        <item>四郎</item>
+        <item>翔</item>
+        <item>翔一</item>
+        <item>翔二</item>
+        <item>翔</item>
+        <item>修一</item>
+        <item>修二</item>
+        <item>空</item>
+        <item>進</item>
+        <item>忠夫</item>
+        <item>1-忠, 2-正</item>
+        <item>貴浩</item>
+        <item>孝雄</item>
+        <item>隆</item>
+        <item>隆行</item>
+        <item>1-雄彦, 2-岳彦</item>
+        <item>1-剛雄, 2-武雄</item>
+        <item>武</item>
+        <item>1-巧, 2-匠, 3-工</item>
+        <item>保</item>
+        <item>太郎</item>
+        <item>1-竜夫, 2-達夫, 3-龍雄</item>
+        <item>竜也</item>
+        <item>輝男</item>
+        <item>1-哲雄, 2-哲夫</item>
+        <item>哲哉</item>
+        <item>富</item>
+        <item>徹</item>
+        <item></item>
+        <item>慧</item>
+        <item>1-利明, 2-敏明, 3-寿明</item>
+        <item>俊夫</item>
+        <item>敏幸</item>
+        <item>恒雄, 恒夫</item>
+        <item>努</item>
+        <item>剛</item>
+        <item>1-泰裕, 2-泰弘, 3-恭弘, 4-泰博</item>
+        <item>康夫</item>
+        <item>靖</item>
+        <item>1-妖一, 2-陽一, 3-洋一, 4-与一</item>
+        <item>より</item>
+        <item>1-義, 2-吉, 3-良</item>
+        <item>義明</item>
+        <item>義博, 義弘, 義博</item>
+        <item>1-義量, 2-良和</item>
+        <item>義則</item>
+        <item>1-誉士夫, 2-良夫</item>
+        <item>1-義郎, 2-良郎, 3-義博</item>
+        <item>1-義人, 2-美人, 3-由人</item>
+        <item>1-義行, 2-吉行, 3-由悠季</item>
+        <item>1-裕一, 2-雄一</item>
+        <item>雄二</item>
+        <item>1- 幸, 2- 雪</item>
+        <item>1-幸雄, 2-行雄</item>
+        <item>裕</item>
+        <item>優</item>
+        <item>雄大</item>
+    </string-array>
+
+    <string-array name="male_names_meaning">
+        <item>autumn, bright, sparkle</item>
+        <item>bright prince</item>
+        <item>large glory </item>
+        <item>glorious hero, glorious man</item>
+        <item>bright, clear</item>
+        <item>blue, hollyhock</item>
+        <item>fresh</item>
+        <item>industrious</item>
+        <item>big, great, large, vast</item>
+        <item>great land, great wisdom</item>
+        <item>great glory, great noble, great tree</item>
+        <item>great helper</item>
+        <item>eternity, next, great, peace, great, second (son), prosperity, peace</item>
+        <item>literary/scholarly child</item>
+        <item>fifth son</item>
+        <item>fifth son</item>
+        <item>eighth son</item>
+        <item>beginning</item>
+        <item>clear up, spring, sun, sunlight</item>
+        <item>spring man</item>
+        <item>shining excellence; splendid brightness</item>
+        <item>splendid opportunity</item>
+        <item>splendid man</item>
+        <item>radiance</item>
+        <item>abundant, generous, tolerant, prosperous</item>
+        <item>widespread brightness</item>
+        <item>abundant joy/strength</item>
+        <item>generous, tolerant, prosperous </item>
+        <item>widespread happiness</item>
+        <item>long-lived man</item>
+        <item>long-lived</item>
+        <item>reserved</item>
+        <item>even-tempered; level</item>
+        <item>step by step</item>
+        <item>first son</item>
+        <item>first son</item>
+        <item>courage</item>
+        <item>honor; merit</item>
+        <item>stone man</item>
+        <item>male who invites</item>
+        <item>second son</item>
+        <item>second son</item>
+        <item>obedient</item>
+        <item>obedient one</item>
+        <item>tenth son</item>
+        <item>tenth son</item>
+        <item>maple</item>
+        <item>firmness</item>
+        <item>victory</item>
+        <item>self-controlled</item>
+        <item>victorious child</item>
+        <item>victorious son</item>
+        <item>harmonious prince</item>
+        <item>prosperous one</item>
+        <item>harmonious hope, one/first shine</item>
+        <item>harmonious man or first male</item>
+        <item>blessed, lucky, excellent, respect, square jewel, wise</item>
+        <item>square jewel first (son)</item>
+        <item>respectful second (son)</item>
+        <item>healthy, strong, modest, study</item>
+        <item>health first, study first </item>
+        <item>healthy second (son), studying second (son)</item>
+        <item>modest truth</item>
+        <item>healthy/strong and big/stout</item>
+        <item>lucky son</item>
+        <item>lucky son</item>
+        <item>gold</item>
+        <item>pure</item>
+        <item>pure</item>
+        <item>happiness, light, peace</item>
+        <item>amber</item>
+        <item>light/shining first (child))</item>
+        <item>light/shining second (child)</item>
+        <item>happiness, light or peace</item>
+        <item>countryman</item>
+        <item>ninth son</item>
+        <item>ninth son</item>
+        <item>apricot, capital, cooperation, village </item>
+        <item>apricot, capital, cooperation, village </item>
+        <item>circle, circle, flower</item>
+        <item>sincere, true</item>
+        <item>protector</item>
+        <item>learn</item>
+        <item>correct, just, elegant, splendid, flourishing, prosperous, genuine, true, governing, political, military</item>
+        <item>true brightness</item>
+        <item>just prince</item>
+        <item>justice prospers</item>
+        <item>flourishing tree</item>
+        <item>model of justice</item>
+        <item>correct man</item>
+        <item>victorious</item>
+        <item>elegant, splendid</item>
+        <item>correct man</item>
+        <item>flourishing goodness</item>
+        <item>correct happiness</item>
+        <item>true lucidity</item>
+        <item>pathway</item>
+        <item>man on the (correct) path</item>
+        <item>tree trunk man</item>
+        <item>truth</item>
+        <item>truth</item>
+        <item>shining man</item>
+        <item>full or  growing</item>
+        <item>docile, esteemed</item>
+        <item>docile tree</item>
+        <item>ascend; climb</item>
+        <item>faith, to extend, prolong (esp. words)</item>
+        <item>faithful man</item>
+        <item>faithful happiness</item>
+        <item>ceremony, regalia, code, precedent, model, rule, standard, law, rule</item>
+        <item>man of law</item>
+        <item>big snake</item>
+        <item>chronicler, disciplined, logical, obtainer, to reign, ruler</item>
+        <item>thunder and lightning</item>
+        <item>sixth son</item>
+        <item>brightness, distant, reality, refreshing</item>
+        <item>stout, strong</item>
+        <item>dragon spirit</item>
+        <item>third son </item>
+        <item>decisive man</item>
+        <item>daybreak, enlightened, fast learner, knowledgeable, perceptive, persuasive, understanding, wise</item>
+        <item>clear-thinking; quick-witted; wise</item>
+        <item>refined first (son)</item>
+        <item>refined second (son)</item>
+        <item>seventh son</item>
+        <item>luxuriant</item>
+        <item>luxuriant man</item>
+        <item>flourishing; luxuriant</item>
+        <item>advancing, belief, gentleman, heart, humble, new, progressive, true</item>
+        <item>true first (son)</item>
+        <item>true second (son) </item>
+        <item>fourth son</item>
+        <item>to fly, to soar, wind instrument</item>
+        <item>soaring first (son)</item>
+        <item>soaring second (son)</item>
+        <item>to fly, to soar</item>
+        <item>master/study first (son)</item>
+        <item>master/study second (son)</item>
+        <item>sky</item>
+        <item>progressing</item>
+        <item>loyal man</item>
+        <item>loyal, true</item>
+        <item>noble-prosperous</item>
+        <item>respectful hero/male</item>
+        <item>elevated; praiseworthy</item>
+        <item>moving to heights</item>
+        <item>hero prince, mountain prince</item>
+        <item>valiant male, violent/warrior male</item>
+        <item>fierce, violent hence warrior</item>
+        <item>adroit, artisan, skilful</item>
+        <item>defender, protector</item>
+        <item>great son, eldest son</item>
+        <item>dragon man, far-reaching man, imperial man</item>
+        <item>dragon-assertive</item>
+        <item>shining man</item>
+        <item>wise hero or wise man</item>
+        <item>sage-(suffering?)</item>
+        <item>treasured man</item>
+        <item>penetrating; wayfarer</item>
+        <item>Thor\'s ruler</item>
+        <item>alert, bright, intelligent </item>
+        <item>bright and alert, bright and clever, bright and happy</item>
+        <item>brilliant man</item>
+        <item>clever and happy</item>
+        <item>eternal hero, eternal man</item>
+        <item>worker</item>
+        <item>brave, valiant</item>
+        <item>calm and leisurely, most calm, most respectful, abundant tranquility</item>
+        <item>healthy man</item>
+        <item>calm, quiet</item>
+        <item>bewitching/seductive first (son), clear/sun/pride first (son), foreign/ocean first (son), participating first (son)</item>
+        <item>servant to the public</item>
+        <item>correct, fine, happy, good, nice</item>
+        <item>clearly/evidently correct</item>
+        <item>vast/extensive/widespread correctness</item>
+        <item>correct quantity/volume, good addition </item>
+        <item>correct rule/law</item>
+        <item>admirable/glorious soldier man, good man</item>
+        <item>correct boy/man, good boy/man, vastly correct</item>
+        <item>correct man, nice man, original man</item>
+        <item>correct going/way, happy going/way, original-far-lasting</item>
+        <item>abundant/rich first (son), brave first (son) </item>
+        <item>brave second (son)</item>
+        <item>happiness; good fortune, snow</item>
+        <item>happy hero, hero\'s going/way</item>
+        <item>abundant, prosperous, wealthy</item>
+        <item>higher, superior</item>
+        <item>big/great/large hero</item>
+    </string-array>
+
+    <string-array name="surnames">
+        <item>Abe</item>
+        <item>Abe</item>
+        <item>Akiyama</item>
+        <item>Fujimoto</item>
+        <item>Fujioka</item>
+        <item>Fujita</item>
+        <item>Fukui</item>
+        <item>Hamasaki</item>
+        <item>Hashimoto</item>
+        <item>Hayashi</item>
+        <item>Himura</item>
+        <item>Hisakawa</item>
+        <item>Honda</item>
+        <item>Ikeda</item>
+        <item>Inoue</item>
+        <item>Ishikawa</item>
+        <item>Ito</item>
+        <item>Itou</item>
+        <item>Kato</item>
+        <item>Katou</item>
+        <item>Kawaguchi</item>
+        <item>Kimura</item>
+        <item>Kita</item>
+        <item>Kobayashi</item>
+        <item>Koizumi</item>
+        <item>Kurosawa</item>
+        <item>Maeda</item>
+        <item>Maki</item>
+        <item>Maki</item>
+        <item>Matsumoto</item>
+        <item>Matsuoka</item>
+        <item>Matsushita</item>
+        <item>Minami</item>
+        <item>Miyamoto</item>
+        <item>Mizushima</item>
+        <item>Mori</item>
+        <item>Moto</item>
+        <item>Nakahara</item>
+        <item>Nakajima</item>
+        <item>Nakamura</item>
+        <item>Nakano</item>
+        <item>Nakashima</item>
+        <item>Nishimura</item>
+        <item>Oshiro</item>
+        <item>Saito</item>
+        <item>Saitou</item>
+        <item>Sasaki</item>
+        <item>Sato</item>
+        <item>Satou</item>
+        <item>Shimizu</item>
+        <item>Suzuki</item>
+        <item>Tachibana</item>
+        <item>Takahashi</item>
+        <item>Takenaka</item>
+        <item>Tanaka</item>
+        <item>Tsukuda</item>
+        <item>Ueda</item>
+        <item>Ueno</item>
+        <item>Watanabe</item>
+        <item>Yamada</item>
+        <item>Yamaguchi</item>
+        <item>Yamamoto</item>
+        <item>Yamasaki</item>
+        <item>Yamashita</item>
+        <item>Yamauchi</item>
+        <item>Yamazaki</item>
+        <item>Yoshida</item>
+        <item>Yukimura</item>
+    </string-array>
+
+    <string-array name="original_surnames">
+        <item>安倍</item>
+        <item>安部</item>
+        <item>秋山</item>
+        <item>藤本</item>
+        <item>藤岡</item>
+        <item>藤田</item>
+        <item>福井</item>
+        <item>浜崎</item>
+        <item>橋本</item>
+        <item>林</item>
+        <item>緋村</item>
+        <item>久川</item>
+        <item>本田</item>
+        <item>池田</item>
+        <item>井上</item>
+        <item>石川</item>
+        <item>伊藤</item>
+        <item>伊藤</item>
+        <item>加藤</item>
+        <item>加藤</item>
+        <item>川口</item>
+        <item>木村</item>
+        <item>北</item>
+        <item>小林</item>
+        <item>小泉</item>
+        <item>黒澤</item>
+        <item>前田</item>
+        <item>牧</item>
+        <item>真木</item>
+        <item>松本</item>
+        <item>松岡</item>
+        <item>松下</item>
+        <item>南</item>
+        <item>宮本</item>
+        <item>水島</item>
+        <item>森</item>
+        <item>本</item>
+        <item>中原</item>
+        <item>中島</item>
+        <item>中村</item>
+        <item>中野</item>
+        <item>中島</item>
+        <item>西村</item>
+        <item>大城</item>
+        <item>斎藤</item>
+        <item>斎藤</item>
+        <item>佐々木</item>
+        <item>佐藤</item>
+        <item>佐藤</item>
+        <item>清水</item>
+        <item>鈴木</item>
+        <item>橘</item>
+        <item>高橋</item>
+        <item>竹中</item>
+        <item>田中</item>
+        <item>佃</item>
+        <item>上田</item>
+        <item>上野</item>
+        <item>渡辺</item>
+        <item>山田</item>
+        <item>山口</item>
+        <item>山本</item>
+        <item>山崎</item>
+        <item>山下</item>
+        <item>山内</item>
+        <item>山崎</item>
+        <item>吉田</item>
+        <item>雪村</item>
+    </string-array>
+
+    <string-array name="surnames_meaning">
+        <item>peace, multiple times</item>
+        <item>peace, part, section</item>
+        <item>autumn, mountain, hill</item>
+        <item>wisteria, base, root, origin</item>
+        <item>wisteria, ridge, hill</item>
+        <item>wisteria, field</item>
+        <item>person who was from fukui prefecture in japan</item>
+        <item>beach, seashore, cape, peninsula</item>
+        <item>bridge, base, root, origin</item>
+        <item>forest</item>
+        <item>scarlet, dark red, town, village</item>
+        <item>long time ago, river, stream</item>
+        <item>root, origin, source, meaning field</item>
+        <item>pool, pond, field</item>
+        <item>above the well, well, mine shaft, pit, above, top, upper</item>
+        <item>stone, river, stream</item>
+        <item>alternate transcription of japanese kanji 伊藤 (see itou)</item>
+        <item>this, wisteria</item>
+        <item>alternate transcription of japanese kanji 加藤 (see katou)</item>
+        <item>add, increase, wisteria</item>
+        <item>mouth of the river, river, stream, mouth, entrance</item>
+        <item>tree, wood, town, village</item>
+        <item>north</item>
+        <item>small, forest</item>
+        <item>small, spring, fountain</item>
+        <item>black, marsh</item>
+        <item>front, forward, field</item>
+        <item>shepherd, tend cattle</item>
+        <item>real, genuine, tree</item>
+        <item>pine tree, fir tree, base, root, origin</item>
+        <item>pine tree, fir tree, ridge, hill</item>
+        <item>pine tree, fir tree, under, below</item>
+        <item>south</item>
+        <item>temple, shrine, palace, base, root, origin</item>
+        <item>water, island</item>
+        <item>forest</item>
+        <item>base, root, origin</item>
+        <item>middle, field, plain</item>
+        <item>middle, island</item>
+        <item>middle, town, village</item>
+        <item>middle, field, wilderness</item>
+        <item>alternate transcription of japanese kanji 中島 (see nakajima)</item>
+        <item>west, town, village</item>
+        <item>big, great, castle</item>
+        <item>alternate transcription of japanese kanji 斎藤 (see saitou)</item>
+        <item>purification, worship, wisteria</item>
+        <item>help, aid, tree, wood</item>
+        <item>alternate transcription of japanese kanji 佐藤 (see satou)</item>
+        <item>help, aid, wisteria</item>
+        <item>clear, pure, clean, water</item>
+        <item>bell, tree, wood</item>
+        <item>orange, tangerine</item>
+        <item>tall, high, bridge</item>
+        <item>dweller amongst bamboo, bamboo, middle</item>
+        <item>dweller in the rice fields, field, rice paddy, middle</item>
+        <item>cultivated rice field</item>
+        <item>above, top, upper, field, rice paddy</item>
+        <item>above, top, upper, field, wilderness</item>
+        <item>cross, ferry, edge, side</item>
+        <item>mountain, field, rice paddy</item>
+        <item>mountain, mouth, entrance</item>
+        <item>mountain, base, root, origin</item>
+        <item>alternate transcription of japanese kanji 山崎 (see yamazaki)</item>
+        <item>mountain, under, below</item>
+        <item>mountain, inside</item>
+        <item>mountain, cape, peninsula</item>
+        <item>lucky, good, field, rice paddy</item>
+        <item>snow, town, village</item>
+    </string-array>
+</resources>
